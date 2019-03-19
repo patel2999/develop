@@ -200,6 +200,10 @@ public class WeatherReportActivity extends BaseActivity<WeatherPresenter> implem
         mMetricsTextView = findViewById(R.id.txt_metrics);
         mLocationTextView = findViewById(R.id.txt_location);
         mYearTextView = findViewById(R.id.txt_year);
+        mMetricsTextView.setText(getString(R.string.metrics_value, mMetricsType.getMetricsType()));
+        mLocationTextView.setText(getString(R.string.location_value,
+                mLocationType.getLocationName()));
+        mYearTextView.setText(getString(R.string.year_value, getString(R.string.empty_value)));
         // SwipeRefreshLayout
         mSwipeRefreshLayout = findViewById(R.id.swipe_container);
         mSwipeRefreshLayout.setOnRefreshListener(this);
