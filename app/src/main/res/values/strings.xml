@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="selection_title">Select the options to see Weather Report</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="menu_metrics_filter">Select Metrics</string>
+    <string name="menu_location_filter">Select Locations</string>
+    <string name="MaxTemperature">MaxTemp</string>
+    <string name="MinTemperature">MinTemp</string>
+    <string name="Rainfall">Rainfall</string>
+    <string name="UK">UK</string>
+    <string name="England">England</string>
+    <string name="Scotland">Scotland</string>
+    <string name="Wales">Wales</string>
+    <string name="SelectYear">Select Year</string>
+    <string name="metrics_value">Metrics: %s</string>
+    <string name="location_value">Location: %s</string>
+    <string name="year_value">Year: %s</string>
+    <string name="empty_value">- - - - -</string>
+</resources>
